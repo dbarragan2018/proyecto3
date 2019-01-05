@@ -8,7 +8,6 @@ import { HomeComponent } from './home/home.component';
 import { NuevoComponent } from './nuevo/nuevo.component';
 import { ReporteComponent } from './reporte/reporte.component';
 import { ConfiguracionesComponent } from './configuraciones/configuraciones.component';
-import { PruebagitComponent } from './pruebagit/pruebagit.component';
 
 
 @NgModule({
@@ -18,8 +17,7 @@ import { PruebagitComponent } from './pruebagit/pruebagit.component';
     HomeComponent,
     NuevoComponent,
     ReporteComponent,
-    ConfiguracionesComponent,
-    PruebagitComponent
+    ConfiguracionesComponent
   ],
   imports: [
     BrowserModule,
