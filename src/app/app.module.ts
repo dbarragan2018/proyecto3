@@ -7,6 +7,7 @@ import { MenuComponent } from './menu/menu.component';
 import { HomeComponent } from './home/home.component';
 import { NuevoComponent } from './nuevo/nuevo.component';
 import { ReporteComponent } from './reporte/reporte.component';
+import { ConfiguracionesComponent } from './configuraciones/configuraciones.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { ReporteComponent } from './reporte/reporte.component';
     MenuComponent,
     HomeComponent,
     NuevoComponent,
-    ReporteComponent
+    ReporteComponent,
+    ConfiguracionesComponent
   ],
   imports: [
     BrowserModule,
